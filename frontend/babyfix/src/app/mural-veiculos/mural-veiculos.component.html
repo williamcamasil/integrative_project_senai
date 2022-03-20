@@ -21,8 +21,8 @@
                 <td>{{veiculo.modelo}}</td>
                 <td>{{veiculo.ano}}</td>
                 <td>{{veiculo.km}}</td>
-                <td><img src="../../assets/img/mural/update.png" alt="Atualizar" routerLink="/painel"></td>
-                <td><img src="../../assets/img/mural/delete.png" alt="Deletar" routerLink="/painel"></td>
+                <td><img src="../../assets/img/mural/update.png" alt="Atualizar" (click)="editVehicle(veiculo)"></td>
+                <td><img src="../../assets/img/mural/delete.png" alt="Deletar" (click)="deleteVehicle(veiculo.id)"></td>
               </tr>
             </tbody>
 
