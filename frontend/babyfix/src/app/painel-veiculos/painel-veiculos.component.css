@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 40px;
+    height: calc(100vh - 380px);
+    border-radius: 20px;
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+}
+
+.formulario {
+
+}
+
+.inputs {
+    margin: 30px auto;
+    width: 60%;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 15px;
+    margin-right: 20px;
+    color: #fff;
+    background-color: #C0121A;
+    border: 0px;
+    border-radius: 5px;
+}
