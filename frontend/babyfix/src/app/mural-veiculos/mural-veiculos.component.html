@@ -1,0 +1,15 @@
+<section class="lista-veiculos">
+    <div *ngFor="let veiculo of veiculos">
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Código do Veiculo: {{veiculo.id}}</h5>
+                <h5 class="card-title">Veiculo: {{veiculo.marca}}</h5>
+                <p class="card-text">Modelo do Veiculo: {{veiculo.modelo}}</p>
+                <p class="card-text">Ano: R$ {{veiculo.ano}}</p>
+                <p class="card-text">Km: R$ {{veiculo.km}}</p>
+            </div>
+        </div>
+
+    </div>
+</section>

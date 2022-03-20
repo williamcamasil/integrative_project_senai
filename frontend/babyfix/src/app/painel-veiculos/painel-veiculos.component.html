@@ -1,0 +1,11 @@
+<h2>Cadastrar</h2>
+<form>
+    <label>Id</label><input type="text" name="id" [(ngModel)] = "veiculo.id"><br>
+    <label>Marca</label><input type="text" name="marca" [(ngModel)] = "veiculo.marca"><br>
+    <label>Modelo</label><input type="text" name="modelo" [(ngModel)] = "veiculo.modelo"><br>
+    <label>Ano</label><input type="text" name="ano" [(ngModel)] = "veiculo.ano"><br>
+    <label>Km</label><input type="text" name="km" [(ngModel)] = "veiculo.km"><br>
+    <button type="button" (click)="cadastrar()">Cadastrar Veiculo</button>
+    <button type="button" (click)="atualizar(veiculo.id)">Atualizar Veiculo</button>
+    <button type="button" (click)="excluir(veiculo.id)">Excluir Veiculo</button>
+</form>
