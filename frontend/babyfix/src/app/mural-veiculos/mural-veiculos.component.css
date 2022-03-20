@@ -1,0 +1,28 @@
+.container {
+    padding: 50px;
+    height: calc(100vh - 260px);
+}
+
+table {
+    margin: auto;
+    width: 70%;
+}
+
+tr {
+    text-align: center;
+}
+
+th {
+    color: #FFF;
+    padding: 20px 0px;
+    background-color: #C0121A;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 10px 0px;
+}
+
+img {
+    width: 25px;
+}
